@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/3dd3d07e-9e02-4fa5-92a6-bb71c00b1aeb/BR-pt-20240107-trifectadaily-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-position: top center;
+  }
+
+  #heading div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    height: 70px;
+  }
+
+  #heading .h1 {
+    padding: 15px 0 0 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  #heading a {
+    color: #e41111;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  #first_phrase {
+      color: #fff;
+      font-size: 32px;
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: 999;
+  }
+  #sec_phrase {
+      color:#fff;
+      font-size: 30px;
+      text-align: center;
+      margin: 16px;
+      font-family: sans-serif;
+      
+  }
+  #thir_phrase {
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      font-family: sans-serif;
+      
+  }
+  #vamo {
+    background-color:red;
+    color:#fff;
+    width: 120px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: rgb(209, 22, 22) solid 1px;
+    font-weight: 800;
+  }
+  .centralizada { /* Centraliza a div */
+    width: 100%; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  input{
+    background: rgb(0, 0, 0, 0.6);
+    height: 50px;
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) solid 1px;
+  }
+  #login {
+    background-color:red;
+    color:#fff;
+    width: 75px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: rgb(209, 22, 22) solid 1px;
+    font-weight: 800;
+  }
+  img {
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+  }
